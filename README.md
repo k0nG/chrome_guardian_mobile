@@ -1,4 +1,4 @@
-Chrome Guardian Mobile Redirector
+Guardian Mobile Redirector Chrome Plugin
 ======================
 
 Chrome Extension to redirect www.guardian.co.uk urls to m.guardian.co.uk. 
