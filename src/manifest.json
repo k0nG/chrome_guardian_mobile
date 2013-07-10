@@ -1,0 +1,10 @@
+{
+   "background": {
+      "scripts": [ "request.js" ]
+   },
+   "description": "Redirects any www.guardian.co.uk page to m.guardian.co.uk",
+   "manifest_version": 2,
+   "name": "Guardian mobile auto redirect",
+   "permissions": [ "webRequest", "webRequestBlocking", "\u003Call_urls\u003E", "tabs" ],
+   "version": "0.1"
+}
