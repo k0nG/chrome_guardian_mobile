@@ -10,7 +10,7 @@ Installation
 ============
 
 1. Open Chrome
-2. Goto 'Extensions'
+2. Go to 'Extensions' (chrome://extensions/)
 3. Enable 'Developer mode'
 4. Download this repository
 5. Click 'Load unpacked extension'
