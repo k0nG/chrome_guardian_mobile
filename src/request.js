@@ -8,7 +8,7 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
 
 function detectRedirect(details) {
 
-    if(details.url.match('www.guardian.co.uk')){
+    if(details.url.match('http://www.guardian.co.uk')){
        return{
             redirectUrl : details.url.replace('www', 'm')
        };
