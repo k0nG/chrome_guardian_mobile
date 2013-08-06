@@ -8,9 +8,9 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
 
 function detectRedirect(details) {
 
-    if(details.url.match('http://www.guardian.co.uk')){
+    if(!!details.url.match('http://www.theguardian.com') && !details.url.match("\\?view=mobile")){
        return{
-            redirectUrl : details.url.replace('www', 'm')
+            redirectUrl : details.url + '?view=mobile'
        };
     }
 }
